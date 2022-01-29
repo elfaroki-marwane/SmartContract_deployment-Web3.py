@@ -1,0 +1,23 @@
+{
+    "contracts": {
+        "SimpleContract.sol": {
+            "SimpleContract": {
+                "abi": [],
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220ec9bbcf80b36265077c8b6f0c5a51144fd8be67fba8564c63290c3723ea343ab64736f6c63430006000033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEC SWAP12 0xBC 0xF8 SIGNEXTEND CALLDATASIZE 0x26 POP PUSH24 0xC8B6F0C5A51144FD8BE67FBA8564C63290C3723EA343AB64 PUSH20 0x6F6C634300060000330000000000000000000000 ",
+                        "sourceMap": "69:26:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:26:0;;;;;;;"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"SimpleContract.sol\":\"SimpleContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"SimpleContract.sol\":{\"keccak256\":\"0x4c8ab143087d3cb4a9d531c87f0b97a4238732a37a4a3c39b29e5232f9190dcc\",\"urls\":[\"bzz-raw://e035bc49265885158805405b3b9f2b21e6e7c4fdd9a5f13ddc16024597e90662\",\"dweb:/ipfs/QmQwQAMSXUTZX3Wyp8GQFxNCiF5DMEhQqV7DWYJDq9KVfp\"]}},\"version\":1}"
+            }
+        }
+    },
+    "sources": {
+        "SimpleContract.sol": {
+            "id": 0
+        }
+    }
+}
